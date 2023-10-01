@@ -1,0 +1,776 @@
+
+/* :root{
+    --text-color:#35405e;
+} */
+
+
+body{
+    width: fit-content;
+    color:#35405e;
+    text-align: right;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 120px;
+    height: 88px;
+    align-items: center;
+    
+}
+.group1{
+    display: flex;
+    align-items: center;
+}
+.Hakini-Logo{
+  margin: 4px 0 4px 43px;
+  object-fit: contain;
+}
+.BTN{
+    width: 145px;
+    background-color: #ffdbcc;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 100px;
+   line-height: 1.5;
+}
+.join-us{
+    font-weight: 600;
+}
+span{
+    margin: 12px 28px 12px 24px;
+    line-height: 1.5;
+}
+.english{
+    font-family: sans-serif;
+    margin-left: 0px;
+    
+}
+.language{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+    
+}
+.about{
+    margin-left: 0px;
+}
+.rect1-hakini{
+    padding: 104px 124px 0;
+    margin: 8px 8px 52px 8px;
+    border-radius: 28px;
+    background-image: linear-gradient(252deg, #fef1de 100%, #fde8e3 0%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.theraps{
+    width: 40%;
+    margin: 6px 0px 108px 126px;
+    display: flex;
+    flex-direction: column;
+}
+.thrap1{
+    font-size: 36px;
+    color: #ca7e6d;
+    line-height: 1.11;
+    margin: 0px;
+    font-weight: 600;
+    
+}
+.thrap2{
+    color: var(--text-color);
+    line-height: 1.4;
+    font-size: 20px;
+    margin: 0px;
+ 
+}
+.thrap3{
+    background-color: white;
+    padding: 20px 28px;
+    margin-top: 42px;
+    border-radius: 100px;
+    border: solid 1px #ebd9c2;
+    width: 89%;
+}
+input[type=search]{
+    border: none;
+    width: 80%;
+    height: 60%;
+    text-align: right;
+    outline-color: white;
+    font-size: 16px;
+}
+input::placeholder{
+    color: #818692;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 12px;
+}
+.therapists{
+    display: flex;
+    margin: 36px 56px 44px 132px;
+}
+main .BTN{
+    background-color: #f1f2f3;
+    height: 52px;
+    flex-grow: 1;
+    width: 119px;
+    height: 52px;
+    margin-right: 16px;
+}
+main .BTN:hover{
+    background-color: #eff6fe;
+    color: #004492;
+}
+.prof:hover{
+    color: #004492;
+    text-decoration:underline;
+}
+.group2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 28px 16px 16px;
+  border-radius: 24px;
+  box-shadow: 0 2px 0 0 #edf0f3;
+  border: solid 1px #dadee2;
+  background-color: #fff;
+  cursor: pointer;
+}
+.group2:hover{
+    border: solid 1px #004492;
+}
+.group2 img{
+    height: 40%;
+    width: 55%;
+    border-radius: 70%;
+    object-fit: cover;  
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 44px 20px;
+    margin-bottom: 44px;    
+}
+main h3{
+    margin: 0px;
+    font-size: 1.3em;
+}
+main h5{
+    margin: 0px;
+    font-size: 1em;
+}
+main p{
+    font-size: 0.9em;
+    text-align: center;
+    margin: 12px 0px 39px 0px;
+    color: rgba(60, 60, 67, 0.6);
+}
+main img{
+    width: 120px;
+    height: 120px;
+    margin: 0 38.5px 20px;
+}
+.rect2{
+    margin: 44px 0px;
+    padding: 36px 66px 40px;
+    border-radius: 28px;
+    background-color: #fffbf5;
+    text-align: center;
+}
+.title{
+    font-size: 30px;
+    margin: 0px;
+}
+.group3{
+    display: flex;
+    justify-content: center;
+    margin: 28px 0px 34px 0px;
+    text-align: center;
+    color: #ca7e6d;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.group3  div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    
+}
+.group3 img{
+    width: 88px;
+    height: 80px;
+}
+.rect2 .BTN ,.reserve .BTN{
+    width: 23%;
+    height: 56px;
+    color: white;
+    font-weight: 500;
+    margin: auto;
+    font-size: 20px;
+}
+.rect2 .BTN {
+    background-color:#ca7e6d ; 
+}
+.rect3{
+    padding: 48px 48px 0;
+    border-radius: 28px;
+    background-color: #eff6fe;
+    display: flex;
+    justify-content: space-between;
+    margin: 44px 0px 48px 0px;
+}
+.rect3 img{
+    margin-top: 8px;
+}
+.how{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0px;
+}
+.how div{
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 4px;
+    margin: 8px 16px 40px 75px;
+    padding: 0;
+}
+.step{
+    font-size: 14px;
+}
+.step-det{
+    font-size: 16px; 
+    color: #004492; 
+    font-weight: 600;
+}
+.how span ,.pagination span,.numbers span{
+    margin: 0px;
+}
+.numbers{
+    width: 32px;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4px;
+}
+.numbers .BTN{
+     width: 3px;
+    height: 24px;
+    padding: 10px 20px;
+    border-radius: 100px;
+  background-color: #004492;
+  color: white;
+}
+.line{
+    width: 4px;
+    height: 48px;
+    flex-grow: 0;
+    border-radius: 100px;
+    background-color: #bacee4;
+    margin: 16px;
+}
+.reserve{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    width: 40%;   
+}
+.reserve #res{
+    margin: 0px;
+    line-height: 1.5;
+}
+.reserve .BTN{
+    background-color: #004492;
+    width: 57%;
+    margin: auto 0px;
+    align-self:self-end;
+}
+hr{
+        height: 1px;
+        background-color: #dadee2;
+        border: none;    
+}
+.pagination{
+  display: flex;
+  align-items: center;
+  margin-top: 28px;
+}
+.pages{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 15%;
+}
+.page-num{
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    border: solid 1px #babbcb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+}
+.m-page{
+    width: 15%;
+    padding: 8px 16px 8px 8px;
+    border-radius: 12px;
+    background-color: #004492;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px 0px 28%;
+}
+.m-page img{
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+}
+#prev{
+    height: 40px;
+    width: 40px;
+}
+.rect4{
+    display: flex;
+    flex-direction: column;
+    margin: 101px 8px 8px;
+    padding: 52px 0px;
+    border-radius: 26px;
+    background-image: linear-gradient(258deg, #fef1de 100%, #fde8e3 0%);
+    text-align: center;
+
+}
+.rect4 #download{
+   width: 25%;
+   margin:  auto;
+}
+.rect4 img{
+    height: 35px;
+    width: 35px;
+}
+.rect4 .BTN{
+    color: white;
+    background-color: black;
+    width: 10%;
+    padding: 0.5% 1%;
+    margin: 0 20px 0 20px;  
+    justify-content: flex-start; 
+}
+.download0{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 0 0 ;
+}
+.download1{
+    text-align: left;
+    margin: 0px;
+    opacity: 0.9;
+}
+.download2{
+    margin:3px 3.5px 0 11.5px;
+    font-size: 10px;
+}
+.download3{
+  margin: -27px 0 0 10.8px;
+  font-size: 20px;
+}
+
+.questions{
+    margin: 8px 8px 0;
+    padding: 88px 20% 100px 20%;
+    border-radius: 26px;
+    background-color: #f3f4f5;
+    text-align: center;
+}
+ summary{
+    outline:none;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.questions summary{
+    font-size: 20px;
+    font-weight: 600;
+}
+summary span{
+    margin: 0px;
+}
+
+.questions summary::before{
+    content: url(imgs/Expand.svg);
+    transition: transform 0.3s ease;
+    
+}
+.questions details[open] summary::before{
+    content: url(imgs/Collapse.svg);
+    transform: rotate(90deg);
+}
+details >div{
+    max-height: 0;
+  overflow: hidden;
+  text-align: right;
+  transition: max-height 0.5s ease-in-out;
+}
+details[open] > div {
+    max-height: 500px; 
+  }
+  nav summary{
+   font-size: 18px;
+   padding:8px 0;
+   font-weight: 600;
+   
+  }
+  summary::before{
+    content: url(imgs/Default.svg);
+    transition: transform 0.3s ease;
+    
+}
+ details[open] summary::before{
+    content: url(imgs/Expanded.svg);
+    transform: rotate(360deg);
+}
+  
+
+
+nav {
+    width: 50%;
+    margin: 25px 0px 0px 56px;
+    
+  }
+  #filter{
+    margin: 0px 0 36px 0; 
+    font-size: 14px;
+  }
+  .therapists .title{
+    margin-bottom: 36px;
+  }
+  /*-----------Responsive----------*/
+  @media screen  and (max-width :499px){
+    html{
+        width: fit-content;
+    }
+    body{
+        font-size: 20px;
+        
+    }
+
+    .rect1-hakini img ,#log{
+       display: none;
+       
+    }
+    .menu{
+       margin: 0;
+       justify-content: flex-end;
+        
+    }
+    header span {
+        margin: 12px 21px 12px 21px;}
+    .group1{
+        width: 100%;
+        justify-content: space-between;
+    }
+    main{
+        grid-template-columns: repeat(2,0.5fr);
+    }
+    .rect1-hakini{
+        justify-content: center;
+    }
+    .theraps {
+        width: unset;
+        margin: 6px 0px 80px 0px;
+        text-align: center;
+    }
+    .thrap1{
+        font-size: 40px;
+    }
+    .thrap2{
+        font-size: 28px;
+    }
+    input::placeholder{
+        font-size: 15px;
+    }
+    input[type=search],.questions summary,.step-det{
+        font-size: 21px;
+        
+    }
+    .title{
+        font-size: 33px;
+    }
+    
+  
+        nav {
+          display: none;
+        }
+        /* main h3{
+            font-size: 28px;
+        } */
+        /* main h5 {
+            font-size: 25px;
+        }
+        main p ,.step{
+            font-size: 20px;
+        } */
+        main .BTN{
+            width: 140px;
+        }
+        
+            
+        .group2{
+            padding: 28px 10px 16px;
+            /* width: 82%; */
+        }
+        .group3{
+            flex-direction: column-reverse;
+        }
+        .group3 div {
+            display: flex;
+            flex-direction: row-reverse;
+            width: 100%;
+        }
+        .rect2 .BTN, .reserve .BTN {
+            width: 40%;
+        }
+            .rect3 img{
+                display: none;
+            }
+            .rect3{
+                flex-direction: column-reverse;
+            }
+            #how11{
+                justify-content: flex-end;
+                margin: 40px 0;
+            }
+            .how,.reserve{
+                width: 100%;
+            }
+            .reserve .BTN {
+                
+                margin: 30px 0 0 0;
+                align-self: center;
+            }
+            .reserve{
+                align-items: center;
+            }
+            .pages{
+                width: 25%;
+            }
+            .m-page{
+                width: 29%;
+            }
+            .rect4 #download{
+                width: 58%;}
+                .rect4 .BTN {
+                   
+                    width: 30%;
+                justify-content: center;}
+                    .download2 {
+                        font-size: 18px;
+                    }
+                    .download3 {
+                        margin: -38px 0 0 10.8px;
+                        font-size: 28px;
+                    }
+                    .rect4 img {
+                        height: 55px;
+                        width: 20%;
+                    }
+                    .questions{
+                        padding: 88px;
+                    }
+                   
+  }
+
+  @media screen and (max-width:950px) and (min-width:500px){
+
+
+   body{
+    font-size: 21px;
+   }
+   .Hakini-Logo{
+    height: 76px;
+   }
+   .menu{
+    margin: 0;
+   }
+   header span{
+    font-weight: 600;
+   }
+   .BTN{
+    width: 20%;
+   }
+  .language{
+    width: 26vh;
+    justify-content: flex-end;
+  }
+  .language img{
+    height: 30px;
+  }
+  .thrap1{
+    font-size: 40px;
+  }
+  .thrap2{
+    font-size: 22px;
+  }
+  .theraps{
+    width: 70%;
+    margin: 6px 0px 108px 0px;
+    align-items: center;
+    text-align: center;
+  }
+  .thrap3{
+    width: 91%;
+  }
+  .rect1-hakini {
+    padding: 104px 49px 0;
+    }
+  input::placeholder{
+    font-size: 17px;
+}
+input[type=search]{
+    font-size: 21px;
+    width: 95%;
+    
+}
+main{
+    grid-template-columns: repeat(3,1fr);
+}
+.therapists {
+    display: flex;
+    margin: 36px 56px 44px 56px;
+}
+nav {
+   display: none;
+}
+.title{
+    font-size: 34px;
+}
+
+main h3 {
+    margin: 0px;
+    /* font-size: 30px; */
+}
+main h5 {
+    margin: 0px;
+    /* font-size: 22px; */
+}
+/* main p {
+    font-size: 20px;
+} */
+main .BTN {
+   
+    width: 140px;
+}
+#login{display: none;
+}
+.rect1-hakini img{
+    display: none;
+}
+.rect1-hakini{
+    justify-content: center;
+    align-items: center;
+}
+.rect3 img {
+   display: none;
+}
+.rect2 .BTN, .reserve .BTN{
+    font-size: 23px;
+}
+.reserve{
+    width: 56%;
+}
+.reserve .BTN{
+    width: 48%;;
+    margin: 30px 0px;
+}
+.step{
+    font-size: 18px;
+}
+.step-det{
+    font-size: 21px;
+}
+.m-page {
+    width: 18%;
+    margin: 0px 20px 0px 54%;
+}
+.rect4 #download{
+    width: 43%;
+}
+.rect4 .BTN {
+    width: 20%;
+
+}
+.rect2 .BTN {
+    width: 26%;}
+.download2 {
+    font-size: 16px;
+}
+.download3 {
+    font-size: 28px;
+    margin: -39px 0 0 10.8px;
+}
+.rect4 img {
+    height: 40px;
+    width: 43px;
+}
+.questions summary {
+    font-size: 23px;
+}
+
+    
+  }
+  @media screen and (max-width:1500px) and (min-width:1000px){
+
+    body{
+        font-size: 18px;
+    }
+    .therapists {
+        display: flex;
+        margin: 36px 56px 44px 56px;
+    }
+    nav {
+        width:44vw;
+        margin: 25px 0px 0px 56px;
+    }
+    main {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    main .BTN{
+        width: 13vw;
+    } 
+    .rect2 .BTN {
+        width: 27%;
+    }
+    .rect1-hakini img{
+        width: 52vw;
+    height: 65vh;
+    }
+    .menu{
+        margin: 0;
+    }
+    .rect4 .BTN {
+        width: 11%;
+    }
+    .group2 img {
+        height: 40%;
+        width: 46%;}
+        .m-page{
+            margin: 0px 20px 0px 64%;
+        }
+        .rect4 #download {
+            width: 27%;}
+   
+
+  }
